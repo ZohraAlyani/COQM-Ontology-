@@ -17,13 +17,24 @@ Figure 1: ontology global view
 
 In the following, the ontological modules include Process ,Risk, Objectives, Quality-Artefacts, Prformance Indicator and knowledge .
 
- 
+ ![image](https://github.com/user-attachments/assets/e22d0ab8-ca8a-46f7-894d-67e8c8de4af1)
+
 Figure 2: Ontological module for Quality Artefact 
+![image](https://github.com/user-attachments/assets/a6063719-f34e-4886-a88b-e913012e93f6)
+
 Figure 3: Ontological module for Performance Indicator
- 
+ ![image](https://github.com/user-attachments/assets/14a6af4b-3970-4e8b-8a02-f54296373c58)
+
 Figure 4: Ontological module for Knowledge
- Figure 5:Ontological module for Objective Figure 6: Ontological module for Process
- 
+![image](https://github.com/user-attachments/assets/595ba60f-10ae-44d6-bc4a-902f6426651c)
+
+ Figure 5:Ontological module for Objective 
+ ![image](https://github.com/user-attachments/assets/584eec95-b06e-4872-960b-524736d6fcf2)
+
+
+ Figure 6: Ontological module for Process
+ ![image](https://github.com/user-attachments/assets/f5aa3309-8f63-442f-acde-6ebd497975bf)
+
 Figure 7:Ontological module for Risk
 
 
@@ -33,7 +44,12 @@ I have applied some rules:
 	SPARQL query to list individuals with their class
 	SPARQL query to list Object Properties with their Domains and Ranges
  
- 
+ ![image](https://github.com/user-attachments/assets/ee11cecc-f034-4d12-baac-b4aaa6ccf66a)
+ ![image](https://github.com/user-attachments/assets/2507db22-2e56-47b0-8c5e-2a365280bb14)
+ ![image](https://github.com/user-attachments/assets/b8e309b3-290c-44b8-a82b-92854d214f91)
+
+
+
  
 
 I have implemented a Python script to load our ontology and retrieve the list of classes, subclasses, individuals, object properties, and execute SPARQL queries.
@@ -48,7 +64,12 @@ I have implemented a Python script to load our ontology and retrieve the list of
 http://127.0.0.1:8000/
 http://127.0.0.1:8000/docs
 
- 
+ ![image](https://github.com/user-attachments/assets/cf7b24ce-0ed1-4332-af95-581c0e08005b)
+ ![image](https://github.com/user-attachments/assets/557dda5b-a3b1-4392-8128-4d49451200bb)
+ ![image](https://github.com/user-attachments/assets/f46a44b2-17f9-4a35-915d-ce56ef1a2cfe)
+
+
+
  
 
 

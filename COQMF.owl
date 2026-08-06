@@ -1,0 +1,847 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zohraalayani/ontologies/2026/1/coqm"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zohraalayani/ontologies/2026/1/coqm">
+    <Prefix name="" IRI="http://www.semanticweb.org/zohraalayani/ontologies/2026/1/coqm#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl</Import>
+    <Declaration>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#accomplishment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusinessProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectiveObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunicationNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoreProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesignDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinancialRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmaterialResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndividualObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterActivityTemporalConstraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterProcessTemporalConstraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InternalRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntraActivityTimeConstraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalRequirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManagementProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NegativeInternalRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalIndicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opportunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganizationalInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganizationalKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganizationalObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartialExternalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerformanceIndicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositiveInternalRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitativeIndicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityArtefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityIndicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityInformationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualityPlan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuantitativeIndicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Record"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegulatoryRequirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SensitiveBusinessProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificationDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategicIndicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategicKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategicObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategicProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrategicRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupportProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Threat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeDuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#documentedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enablesObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForRisk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasObjective"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTemporalQuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#indicatesRisk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDocumentedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectiveOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTemporalQualityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedByProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supportsProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesResource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Goods_Receipt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Inventory_Record"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Purchase_Order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Purchase_Request"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Quotation_Request"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Supplier_List"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPI_Delivery_Time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPI_Number_Complaints"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPI_Purchase_Cost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPI_Satisfaction_Rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPI_Transport_Cost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPI_Validation_Time_Level1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KPI_Validation_Time_Level2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obj_OnTime_Delivery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obj_Optimize_Supplier_Selection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proc_Purchase_Logistics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Risk_Procurement_Delay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Risk_Project_Delay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Risk_Reputation_Damage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TD_Max_Validation_L1_1Day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TD_Max_Validation_L2_2Days"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Building"/>
+        <Class IRI="#PhysicalInfrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusinessProcess"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#accomplishment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BusinessProcess"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasObjective"/>
+            <Class IRI="#Objective"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectiveObjective"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunicationNetwork"/>
+        <Class IRI="#OrganizationalInfrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoreProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesignDocument"/>
+        <Class IRI="#QualityDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#PhysicalInfrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalRisk"/>
+        <Class IRI="#Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinancialRisk"/>
+        <Class IRI="#Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Form"/>
+        <Class IRI="#QualityDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanResource"/>
+        <Class IRI="#ImmaterialResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndividualObjective"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infrastructure"/>
+        <Class IRI="#MaterialResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intention"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#accomplishment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterActivityTemporalConstraint"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterProcessTemporalConstraint"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternalProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InternalRisk"/>
+        <Class IRI="#Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntraActivityTimeConstraint"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knowledge"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#state"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalRequirements"/>
+        <Class IRI="#QualityDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ManagementProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialResource"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NegativeInternalRisk"/>
+        <Class IRI="#InternalRisk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norm"/>
+        <Class IRI="#QualityDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objective"/>
+        <Class IRI="#Intention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalIndicator"/>
+        <Class IRI="#PerformanceIndicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalIndicator"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#measures"/>
+            <Class IRI="#OperationalProcess"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalKnowledge"/>
+        <Class IRI="#Knowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalObjective"/>
+        <Class IRI="#OrganizationalObjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalRisk"/>
+        <Class IRI="#Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opportunity"/>
+        <Class IRI="#ExternalRisk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganizationalInfrastructure"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganizationalKnowledge"/>
+        <Class IRI="#Knowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganizationalObjective"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartialExternalProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerformanceIndicator"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalInfrastructure"/>
+        <Class IRI="#Infrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositiveInternalRisk"/>
+        <Class IRI="#InternalRisk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitativeIndicator"/>
+        <Class IRI="#QualityIndicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityArtefact"/>
+        <Class IRI="#ImmaterialResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityDescription"/>
+        <Class IRI="#QualityArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityDocument"/>
+        <Class IRI="#QualityArtefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityIndicator"/>
+        <Class IRI="#PerformanceIndicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityInformationSystem"/>
+        <Class IRI="#OrganizationalInfrastructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityObjective"/>
+        <Class IRI="#OrganizationalObjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualityPlan"/>
+        <Class IRI="#QualityDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantitativeIndicator"/>
+        <Class IRI="#QualityIndicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Record"/>
+        <Class IRI="#QualityDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegulatoryRequirements"/>
+        <Class IRI="#QualityDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resource"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risk"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SensitiveBusinessProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificationDocument"/>
+        <Class IRI="#QualityDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrategicIndicator"/>
+        <Class IRI="#PerformanceIndicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrategicKnowledge"/>
+        <Class IRI="#Knowledge"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrategicObjective"/>
+        <Class IRI="#OrganizationalObjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrategicProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrategicRisk"/>
+        <Class IRI="#Risk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Threat"/>
+        <Class IRI="#ExternalRisk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeDate"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeDuration"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#CollectiveObjective"/>
+        <Class IRI="#IndividualObjective"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OperationalIndicator"/>
+        <Class IRI="#StrategicIndicator"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OperationalObjective"/>
+        <Class IRI="#StrategicObjective"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#QualityDocument"/>
+        <NamedIndividual IRI="#Doc_Goods_Receipt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityDocument"/>
+        <NamedIndividual IRI="#Doc_Inventory_Record"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityDocument"/>
+        <NamedIndividual IRI="#Doc_Purchase_Order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityDocument"/>
+        <NamedIndividual IRI="#Doc_Purchase_Request"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityDocument"/>
+        <NamedIndividual IRI="#Doc_Quotation_Request"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualityDocument"/>
+        <NamedIndividual IRI="#Doc_Supplier_List"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceIndicator"/>
+        <NamedIndividual IRI="#KPI_Delivery_Time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceIndicator"/>
+        <NamedIndividual IRI="#KPI_Number_Complaints"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceIndicator"/>
+        <NamedIndividual IRI="#KPI_Purchase_Cost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceIndicator"/>
+        <NamedIndividual IRI="#KPI_Satisfaction_Rate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceIndicator"/>
+        <NamedIndividual IRI="#KPI_Transport_Cost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceIndicator"/>
+        <NamedIndividual IRI="#KPI_Validation_Time_Level1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PerformanceIndicator"/>
+        <NamedIndividual IRI="#KPI_Validation_Time_Level2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objective"/>
+        <NamedIndividual IRI="#Obj_OnTime_Delivery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objective"/>
+        <NamedIndividual IRI="#Obj_Optimize_Supplier_Selection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BusinessProcess"/>
+        <NamedIndividual IRI="#Proc_Purchase_Logistics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk"/>
+        <NamedIndividual IRI="#Risk_Procurement_Delay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk"/>
+        <NamedIndividual IRI="#Risk_Project_Delay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Risk"/>
+        <NamedIndividual IRI="#Risk_Reputation_Damage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeDuration"/>
+        <NamedIndividual IRI="#TD_Max_Validation_L2_2Days"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTemporalQuality"/>
+        <NamedIndividual IRI="#KPI_Validation_Time_Level1"/>
+        <NamedIndividual IRI="#TD_Max_Validation_L1_1Day"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#documentedBy"/>
+        <NamedIndividual IRI="#Proc_Purchase_Logistics"/>
+        <NamedIndividual IRI="#Doc_Purchase_Request"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasForRisk"/>
+        <NamedIndividual IRI="#Proc_Purchase_Logistics"/>
+        <NamedIndividual IRI="#Risk_Procurement_Delay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasObjective"/>
+        <NamedIndividual IRI="#Proc_Purchase_Logistics"/>
+        <NamedIndividual IRI="#Obj_OnTime_Delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <NamedIndividual IRI="#Proc_Purchase_Logistics"/>
+        <NamedIndividual IRI="#KPI_Validation_Time_Level1"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasObjective"/>
+        <ObjectProperty IRI="#isObjectiveOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <ObjectProperty IRI="#measures"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isUsedByProcess"/>
+        <ObjectProperty IRI="#usesResource"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#documentedBy"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#enablesObjective"/>
+        <Class IRI="#Knowledge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasForRisk"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasObjective"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTemporalQuality"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#indicatesRisk"/>
+        <Class IRI="#PerformanceIndicator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDocumentedIn"/>
+        <Class IRI="#Knowledge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <Class IRI="#Objective"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectiveOf"/>
+        <Class IRI="#Objective"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTemporalQualityOf"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsedByProcess"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#measures"/>
+        <Class IRI="#PerformanceIndicator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supportsProcess"/>
+        <Class IRI="#Knowledge"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesResource"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#documentedBy"/>
+        <Class IRI="#QualityDocument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#enablesObjective"/>
+        <Class IRI="#Objective"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasForRisk"/>
+        <Class IRI="#Risk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasObjective"/>
+        <Class IRI="#Objective"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTemporalQuality"/>
+        <Class IRI="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporal-quality"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#indicatesRisk"/>
+        <Class IRI="#Risk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMeasuredBy"/>
+        <Class IRI="#PerformanceIndicator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectiveOf"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTemporalQualityOf"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsedByProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#measures"/>
+        <Class IRI="#Objective"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supportsProcess"/>
+        <Class IRI="#BusinessProcess"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesResource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
